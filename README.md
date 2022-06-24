@@ -1,11 +1,15 @@
 # tmux备份（离线安装）
 
+
+
 ## 基本流程：
 
 首先安装tmux的插件管理器：[tmux plugin manager](https://github.com/tmux-plugins/tpm)，然后安装以下两个插件：
 
 - [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)：备份与恢复；Restore tmux environment after system restart。
 - [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum)：用于定时调用tmux-resurrect进行自动备份，并在开机时调用tmux-resurrect进行自动恢复。
+
+
 
 ## 安装方法
 
@@ -30,6 +34,8 @@ echo "默认备份和恢复都是自动的（在指定时间间隔 15分钟 进�
 
 即可完成安装。
 
+
+
 ## 更多
 
-请参考：
+请参考：https://zhuanlan.zhihu.com/p/533349040
